@@ -16,6 +16,7 @@ public class Main {
         System.out.println(p3);
         System.out.println(line);
         System.out.println(area);
+
     }
 
 
