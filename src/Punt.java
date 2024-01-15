@@ -1,4 +1,5 @@
 public class Punt {
+
     private int id;
     private int x;
     private int y;
@@ -7,5 +8,14 @@ public class Punt {
         this.id = id;
         this.x = x;
         this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "Punt{" +
+                "id=" + id +
+                ", x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
